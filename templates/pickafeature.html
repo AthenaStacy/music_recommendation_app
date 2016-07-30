@@ -9,17 +9,12 @@
     {{question}}
 
     <h4>
-      <form id='answerform' method='post' action='next' >
+      <form id='answerform' method='post' action='pickafeature' >
         <p>
           Answer: <br />
-          <input type='radio' name='answer_from_layout2' value={{ans1}} /> {{ans1}} 
-          <input type='text' name='song_name' />
-          <br />
-          
-          <input type='radio' name='answer_from_layout2' value={{ans2}} /> {{ans2}} 
-          <input type='text' name='artist_name' />
-          <br />
-
+          <input type='radio' name='feature_choice' value='musical_features' /> {{ans1}} <br />
+          <input type='radio' name='feature_choice' value='lyrical_content' /> {{ans2}} <br />
+          <input type='radio' name='feature_choice' value='lyrical_attributes' /> {{ans3}} <br />
         </p>
 
         <p>
